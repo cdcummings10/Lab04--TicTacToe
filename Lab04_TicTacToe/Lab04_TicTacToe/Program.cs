@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lab04_TicTacToe.Classes;
+using System;
 
 namespace Lab04_TicTacToe
 {
@@ -6,7 +7,8 @@ namespace Lab04_TicTacToe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Board board = new Board();
+            board.DisplayBoard();
         }
 
         // TODO: Setup your game. Create a new method that creates your players 
