@@ -12,10 +12,10 @@ namespace Lab04_TicTacToe.Classes
 		/// </summary>
 		public string Marker { get; set; }
 
-		/// <summary>
-		/// Flag to determine if it is the user's turn
-		/// </summary>
-		public bool IsTurn { get; set; }
+        /// <summary>
+        /// Flag to determine if it is the user's turn
+        /// </summary>
+        public bool IsTurn { get; set; } = false;
 
         public Player(string name, string marker)
         {
