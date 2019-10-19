@@ -10,11 +10,10 @@ namespace Lab04_TicTacToe
             PlayGame();
         }
 
-        // TODO: Setup your game. Create a new method that creates your players 
-        // and instantiates the game class. Call that method in your Main method.
-        // You are requesting a Winner to be returned, Determine who the winner 
-        // is output the celebratory message to the correct player. If it's a draw, 
-        // tell them that there is no winner. 
+        /// <summary>
+        /// Creates two new Player objects and sets one Player.IsTurn to true. Creates a new Game object
+        /// with the two players as parameters. Plays game.
+        /// </summary>
         static void PlayGame()
         {
             Player player1 = new Player("Player 1", "X");
