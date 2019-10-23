@@ -60,3 +60,5 @@ Actual time to finish: 4 Hours
 ### Change Log 
 
 1.0: *Finished TicTacToe Game. Added all functionality to app.* - 18 Oct 2019
+
+1.1: *Added two more tests.* - 22 Oct 2019
